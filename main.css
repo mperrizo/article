@@ -1,7 +1,11 @@
-.container { width: 800px; }
+.main-container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
 
 p {
-    font-family: "Times New Roman", Helvetica, Serif;
+    font-family: "Times New Roman", sans-serif; Serif;
 }
 
 p {
@@ -22,25 +26,25 @@ p.small {
 }
 
 .text-align-prop {
-  text-align: justify;
+  text-align: right;
 }
 
 .text-decoration-prop {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
-.text-indent-prop {
+text-indent-prop {
   text-indent: 20px;
 }
 
-.text-shadow-prop {
+text-shadow-prop {
   text-shadow: 0px 0px 0px;
 }
 
-.letter-spacing-prop {
-  letter-spacing: 3px;
+letter-spacing-prop {
+  letter-spacing: 5px;
 }
 
-.word-spacing-prop {
+word-spacing-prop {
   word-spacing: 10px;
 }
